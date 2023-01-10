@@ -1,0 +1,33 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: rule for linear regression
+  steps:
+  - intent: linear_regression
+  - action: action_ml
+
+- rule: rule for logistic regression
+  steps:
+  - intent: logistic_regression
+  - action: action_ml
+
+- rule: rule for mean square error
+  steps:
+  - intent: mean_square_error
+  - action: action_ml
+
+- rule: rule for mean absolute error
+  steps:
+  - intent: mean_absolute_error
+  - action: action_ml

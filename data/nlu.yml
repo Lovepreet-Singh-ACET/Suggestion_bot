@@ -1,0 +1,126 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: linear_regression
+  examples: |
+    - tell me about linear regression
+    - can you please tell me about linear regression
+    - what is linear regression
+    - can you tell me what linear regression is
+    - do you know about linear regression
+    - will you be able to tell me about linear regression
+    - is it possible for you to tell me about linear regression
+
+- intent: logistic_regression
+  examples: |
+    - what is logistic regression
+    - tell me about logistic regression
+    - is it possible for you to tell me about logistic regression
+    - i want to know about logistic regression
+    - will you be able to tell me about logistic regression
+    - what does logistic regression do
+
+- intent: mean_square_error
+  examples: |
+    - what is mean square error
+    - tell me about mean square error
+    - what is mean squared error
+    - tell me about mean squared error
+    - please tell me about mean square error
+
+- intent: mean_absolute_error
+  examples: |
+    - what does mean absolute error
+    - what is mean absolute error
+    - how is mean absolute error defined
+    - what is the defination of mean absolute error
+    - can you define mean absolute error
